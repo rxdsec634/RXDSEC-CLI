@@ -6,8 +6,6 @@
 
 **RxDsec CLI** is a fully local, GGUF-only AI coding assistant that runs entirely on your machine. No internet connection required - it works completely offline using local models for enhanced privacy and security.
 
-rxdsec.png
-
 ## Features
 
 ### 🧠 Advanced AI Agent
