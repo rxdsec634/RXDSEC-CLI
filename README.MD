@@ -50,7 +50,7 @@
 
 1. **Clone the repository** (optional, if developing):
    ```bash
-   git clone https://github.com/rxdsec634/RXDSEC-CLI.git
+   git clone https://github.com/rxdsec/rxdsec.git
    cd rxdsec
    ```
 

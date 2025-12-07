@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rxdsec"
+version = "1.0.0"
+description = "Fully local, GGUF-only agentic coding terminal"
+readme = "README.MD"
+license = {text = "MIT"}
+authors = [{name = "RxDsec Team"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "llama-cpp-python>=0.2.0",
+    "rich>=13.0.0",
+    "prompt-toolkit>=3.0.0",
+    "pyyaml>=6.0",
+    "requests>=2.28.0",
+    "typer>=0.9.0",
+    "watchdog>=3.0.0",
+    "pygments>=2.15.0",
+    "gitpython>=3.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/rxdsec/rxdsec"
+Repository = "https://github.com/rxdsec/rxdsec"
+
+[project.scripts]
+rxdsec = "rxdsec.cli.main:main_entry"
+
+[tool.setuptools.packages.find]
+include = ["rxdsec*"]

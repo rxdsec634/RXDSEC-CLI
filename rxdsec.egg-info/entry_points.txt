@@ -1,0 +1,2 @@
+[console_scripts]
+rxdsec = rxdsec.cli.main:main_entry
